@@ -1,0 +1,76 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf293/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf293.dir/build.make CMakeFiles/cmTC_bf293.dir/build
+make[1]: Entering directory '/home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf293.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf293.dir/CheckSymbolExists.c.o   -c /home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bf293
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf293.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_bf293.dir/CheckSymbolExists.c.o  -o cmTC_bf293 
+CMakeFiles/cmTC_bf293.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bf293.dir/build.make:97: recipe for target 'cmTC_bf293' failed
+make[1]: *** [cmTC_bf293] Error 1
+make[1]: Leaving directory '/home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bf293/fast' failed
+make: *** [cmTC_bf293/fast] Error 2
+
+File /home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7defd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7defd.dir/build.make CMakeFiles/cmTC_7defd.dir/build
+make[1]: Entering directory '/home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7defd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7defd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7defd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7defd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7defd.dir/CheckFunctionExists.c.o  -o cmTC_7defd -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7defd.dir/build.make:97: recipe for target 'cmTC_7defd' failed
+make[1]: *** [cmTC_7defd] Error 1
+make[1]: Leaving directory '/home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7defd/fast' failed
+make: *** [cmTC_7defd/fast] Error 2
+
+
+Determining if the function glXGetProcAddressEXT exists failed with the following output:
+Change Dir: /home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04137/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04137.dir/build.make CMakeFiles/cmTC_04137.dir/build
+make[1]: Entering directory '/home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04137.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTC_04137.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_04137
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04137.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    -rdynamic CMakeFiles/cmTC_04137.dir/CheckFunctionExists.c.o  -o cmTC_04137 /usr/lib/x86_64-linux-gnu/libGL.so 
+CMakeFiles/cmTC_04137.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `glXGetProcAddressEXT'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_04137.dir/build.make:98: recipe for target 'cmTC_04137' failed
+make[1]: *** [cmTC_04137] Error 1
+make[1]: Leaving directory '/home/xuanyu/mGames/CG/graphic/Assignment8/CGL/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_04137/fast' failed
+make: *** [cmTC_04137/fast] Error 2
+
+

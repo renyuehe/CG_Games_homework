@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -std=gnu++1z -o CMakeFiles/RayTracing.dir/main.cpp.o -c /home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/main.cpp",
+  "file": "/home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/main.cpp"
+},
+{
+  "directory": "/home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -std=gnu++1z -o CMakeFiles/RayTracing.dir/Vector.cpp.o -c /home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/Vector.cpp",
+  "file": "/home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/Vector.cpp"
+},
+{
+  "directory": "/home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -std=gnu++1z -o CMakeFiles/RayTracing.dir/Scene.cpp.o -c /home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/Scene.cpp",
+  "file": "/home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/Scene.cpp"
+},
+{
+  "directory": "/home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -std=gnu++1z -o CMakeFiles/RayTracing.dir/BVH.cpp.o -c /home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/BVH.cpp",
+  "file": "/home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/BVH.cpp"
+},
+{
+  "directory": "/home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -std=gnu++1z -o CMakeFiles/RayTracing.dir/Renderer.cpp.o -c /home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/Renderer.cpp",
+  "file": "/home/xuanyu/mGames/Games_作业/assignment6/PA6/Assignment6/Renderer.cpp"
+}
+]
