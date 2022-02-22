@@ -1,3 +1,0 @@
-/home/xuanyu/mGames/Games_作业/assignment0/Transformation/build/CMakeFiles/rebuild_cache.dir
-/home/xuanyu/mGames/Games_作业/assignment0/Transformation/build/CMakeFiles/Transformation.dir
-/home/xuanyu/mGames/Games_作业/assignment0/Transformation/build/CMakeFiles/edit_cache.dir

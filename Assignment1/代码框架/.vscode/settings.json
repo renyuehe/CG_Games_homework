@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "algorithm": "cpp",
-        "eigen": "cpp",
-        "stdexcept": "cpp"
-    }
-}

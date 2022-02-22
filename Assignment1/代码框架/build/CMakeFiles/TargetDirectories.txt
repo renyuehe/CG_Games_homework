@@ -1,3 +1,0 @@
-/home/xuanyu/mGames/Games_作业/Assignment1/代码框架/build/CMakeFiles/rebuild_cache.dir
-/home/xuanyu/mGames/Games_作业/Assignment1/代码框架/build/CMakeFiles/Rasterizer.dir
-/home/xuanyu/mGames/Games_作业/Assignment1/代码框架/build/CMakeFiles/edit_cache.dir

@@ -1,3 +1,0 @@
-/home/xuanyu/mGames/Games_作业/assignment7/PA7/Assignment7/build/CMakeFiles/rebuild_cache.dir
-/home/xuanyu/mGames/Games_作业/assignment7/PA7/Assignment7/build/CMakeFiles/RayTracing.dir
-/home/xuanyu/mGames/Games_作业/assignment7/PA7/Assignment7/build/CMakeFiles/edit_cache.dir

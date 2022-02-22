@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/xuanyu/mGames/Games_作业/Assignment4/code/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -isystem /usr/include/opencv  -g   -std=gnu++14 -o CMakeFiles/BezierCurve.dir/main.cpp.o -c /home/xuanyu/mGames/Games_作业/Assignment4/code/main.cpp",
-  "file": "/home/xuanyu/mGames/Games_作业/Assignment4/code/main.cpp"
-}
-]
