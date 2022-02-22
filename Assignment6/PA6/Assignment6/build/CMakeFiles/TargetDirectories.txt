@@ -1,0 +1,3 @@
+/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment6/PA6/Assignment6/build/CMakeFiles/rebuild_cache.dir
+/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment6/PA6/Assignment6/build/CMakeFiles/RayTracing.dir
+/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment6/PA6/Assignment6/build/CMakeFiles/edit_cache.dir

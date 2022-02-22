@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment5/Code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -Wall -Wextra -pedantic -Wshadow -Wreturn-type -fsanitize=undefined -std=gnu++1z -o CMakeFiles/RayTracing.dir/main.cpp.o -c /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment5/Code/main.cpp",
+  "file": "/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment5/Code/main.cpp"
+},
+{
+  "directory": "/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment5/Code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -Wall -Wextra -pedantic -Wshadow -Wreturn-type -fsanitize=undefined -std=gnu++1z -o CMakeFiles/RayTracing.dir/Scene.cpp.o -c /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment5/Code/Scene.cpp",
+  "file": "/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment5/Code/Scene.cpp"
+},
+{
+  "directory": "/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment5/Code/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -Wall -Wextra -pedantic -Wshadow -Wreturn-type -fsanitize=undefined -std=gnu++1z -o CMakeFiles/RayTracing.dir/Renderer.cpp.o -c /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment5/Code/Renderer.cpp",
+  "file": "/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment5/Code/Renderer.cpp"
+}
+]

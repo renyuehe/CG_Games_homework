@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment0/Transformation/main.cpp
+cmath
+-
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Dense
+-
+iostream
+-
+algorithm
+-
+

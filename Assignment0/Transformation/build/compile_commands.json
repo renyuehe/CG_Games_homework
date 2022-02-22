@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment0/Transformation/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7   -I/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment0/Transformation/EIGEN3_INCLUDE_DIR  -g   -o CMakeFiles/Transformation.dir/main.cpp.o -c /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment0/Transformation/main.cpp",
+  "file": "/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment0/Transformation/main.cpp"
+}
+]

@@ -1,0 +1,59 @@
+The system is: Linux - sh: 0: getcwd() failed: No such file or directory
+5.4.0-92-generic - sh: 0: getcwd() failed: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df379/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df379.dir/build.make CMakeFiles/cmTC_df379.dir/build
+make[1]: Entering directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df379.dir/testCCompiler.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_df379.dir/testCCompiler.c.o   -c /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_df379
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df379.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      CMakeFiles/cmTC_df379.dir/testCCompiler.c.o  -o cmTC_df379 
+make[1]: Leaving directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_daf8d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_daf8d.dir/build.make CMakeFiles/cmTC_daf8d.dir/build
+make[1]: Entering directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_daf8d.dir/CMakeCCompilerABI.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_daf8d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_daf8d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daf8d.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      CMakeFiles/cmTC_daf8d.dir/CMakeCCompilerABI.c.o  -o cmTC_daf8d 
+make[1]: Leaving directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_88caf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_88caf.dir/build.make CMakeFiles/cmTC_88caf.dir/build
+make[1]: Entering directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_88caf.dir/testCXXCompiler.cxx.o
+/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_88caf.dir/testCXXCompiler.cxx.o -c /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_88caf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88caf.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       CMakeFiles/cmTC_88caf.dir/testCXXCompiler.cxx.o  -o cmTC_88caf 
+make[1]: Leaving directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2963d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2963d.dir/build.make CMakeFiles/cmTC_2963d.dir/build
+make[1]: Entering directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2963d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/x86_64-linux-gnu-g++-7     -o CMakeFiles/cmTC_2963d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2963d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2963d.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-g++-7       CMakeFiles/cmTC_2963d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2963d 
+make[1]: Leaving directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,76 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_713ea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_713ea.dir/build.make CMakeFiles/cmTC_713ea.dir/build
+make[1]: Entering directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_713ea.dir/CheckSymbolExists.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7    -o CMakeFiles/cmTC_713ea.dir/CheckSymbolExists.c.o   -c /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_713ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_713ea.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7      -rdynamic CMakeFiles/cmTC_713ea.dir/CheckSymbolExists.c.o  -o cmTC_713ea 
+CMakeFiles/cmTC_713ea.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_713ea.dir/build.make:97: recipe for target 'cmTC_713ea' failed
+make[1]: *** [cmTC_713ea] Error 1
+make[1]: Leaving directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_713ea/fast' failed
+make: *** [cmTC_713ea/fast] Error 2
+
+File /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ec226/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ec226.dir/build.make CMakeFiles/cmTC_ec226.dir/build
+make[1]: Entering directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec226.dir/CheckFunctionExists.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ec226.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ec226
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec226.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ec226.dir/CheckFunctionExists.c.o  -o cmTC_ec226 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ec226.dir/build.make:97: recipe for target 'cmTC_ec226' failed
+make[1]: *** [cmTC_ec226] Error 1
+make[1]: Leaving directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ec226/fast' failed
+make: *** [cmTC_ec226/fast] Error 2
+
+
+Determining if the function glXGetProcAddressEXT exists failed with the following output:
+Change Dir: /home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b68ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b68ef.dir/build.make CMakeFiles/cmTC_b68ef.dir/build
+make[1]: Entering directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b68ef.dir/CheckFunctionExists.c.o
+/usr/bin/x86_64-linux-gnu-gcc-7   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT   -o CMakeFiles/cmTC_b68ef.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b68ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b68ef.dir/link.txt --verbose=1
+/usr/bin/x86_64-linux-gnu-gcc-7  -DCHECK_FUNCTION_EXISTS=glXGetProcAddressEXT    -rdynamic CMakeFiles/cmTC_b68ef.dir/CheckFunctionExists.c.o  -o cmTC_b68ef /usr/lib/x86_64-linux-gnu/libGL.so 
+CMakeFiles/cmTC_b68ef.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `glXGetProcAddressEXT'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b68ef.dir/build.make:98: recipe for target 'cmTC_b68ef' failed
+make[1]: *** [cmTC_b68ef] Error 1
+make[1]: Leaving directory '/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment8/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b68ef/fast' failed
+make: *** [cmTC_b68ef/fast] Error 2
+
+

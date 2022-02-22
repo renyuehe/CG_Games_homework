@@ -1,0 +1,3 @@
+/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/rebuild_cache.dir
+/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/Rasterizer.dir
+/home/xuanyu/mGames/Games_Homework_Yuehe/Assignment1/code/build/CMakeFiles/edit_cache.dir
